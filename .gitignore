@@ -1,6 +1,19 @@
-git init
-git add .
-git commit -m "Initial backend commit"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/league-insight-ai-backend.git
-git push -u origin main
+# Build and Release Folders
+bin-debug/
+bin-release/
+[Oo]bj/
+[Bb]in/
+
+# Other files and folders
+.settings/
+
+# Executables
+*.swf
+*.air
+*.ipa
+*.apk
+
+# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
+# should NOT be excluded as they contain compiler settings and other important
+# information for Eclipse / Flash Builder.
+OPENAI_API_KEY=your_openai_api_key_here
